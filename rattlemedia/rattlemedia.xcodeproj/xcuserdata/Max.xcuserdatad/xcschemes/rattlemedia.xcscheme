@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50020E451B67676300DC7CA1"
+               BlueprintIdentifier = "50DE9B2E1B67697500EE1E44"
                BuildableName = "rattlemedia.app"
                BlueprintName = "rattlemedia"
                ReferencedContainer = "container:rattlemedia.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50020E5D1B67676300DC7CA1"
+               BlueprintIdentifier = "50DE9B451B67697500EE1E44"
                BuildableName = "rattlemediaTests.xctest"
                BlueprintName = "rattlemediaTests"
                ReferencedContainer = "container:rattlemedia.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50020E5D1B67676300DC7CA1"
+               BlueprintIdentifier = "50DE9B451B67697500EE1E44"
                BuildableName = "rattlemediaTests.xctest"
                BlueprintName = "rattlemediaTests"
                ReferencedContainer = "container:rattlemedia.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50020E451B67676300DC7CA1"
+            BlueprintIdentifier = "50DE9B2E1B67697500EE1E44"
             BuildableName = "rattlemedia.app"
             BlueprintName = "rattlemedia"
             ReferencedContainer = "container:rattlemedia.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50020E451B67676300DC7CA1"
+            BlueprintIdentifier = "50DE9B2E1B67697500EE1E44"
             BuildableName = "rattlemedia.app"
             BlueprintName = "rattlemedia"
             ReferencedContainer = "container:rattlemedia.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50020E451B67676300DC7CA1"
+            BlueprintIdentifier = "50DE9B2E1B67697500EE1E44"
             BuildableName = "rattlemedia.app"
             BlueprintName = "rattlemedia"
             ReferencedContainer = "container:rattlemedia.xcodeproj">

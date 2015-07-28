@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  rattlemedia
 //
 //  Created by Max Bilbow on 28/07/2015.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RattleWebView: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
