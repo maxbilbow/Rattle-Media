@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MediaPlayer
 
 class WebView : UIWebView {
     
@@ -17,5 +18,24 @@ class WebView : UIWebView {
         let url = NSURL(string: "https://www.rattlemedia.co.uk");
         self.loadHTMLString("", baseURL: url);
         self.loadRequest(NSURLRequest(URL: url!));
+    }
+}
+
+class VideoIntro : MPMoviePlayerViewController {
+    
+    
+    override func awakeFromNib() {
+    
+        var videoPath = NSBundle.mainBundle().pathForResource("../Rattle", ofType: "m4v")
+        var videoURL = NSURL.fileURLWithPath(videoPath!)
+        
+        var moviePlayer = MPMoviePlayerController(contentURL: videoURL!)
+
+//    [moviePlayer.view setFrame:videoView.bounds];
+//    [videoView addSubview:moviePlayer.view];
+//    
+        moviePlayer.prepareToPlay()
+        moviePlayer.play();
+    
     }
 }

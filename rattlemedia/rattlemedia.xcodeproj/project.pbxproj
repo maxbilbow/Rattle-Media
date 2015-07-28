@@ -62,6 +62,7 @@
 		50DE9B611B676B3C00EE1E44 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		50DE9B621B676B3C00EE1E44 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		50DE9B631B676B3C00EE1E44 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		6CAFAF0B1B67712F00C33AED /* Rattle.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = Rattle.m4v; path = ../../Rattle.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 		50DE9B311B67697500EE1E44 /* rattlemedia */ = {
 			isa = PBXGroup;
 			children = (
+				6CAFAF0B1B67712F00C33AED /* Rattle.m4v */,
 				50DE9B581B676B3B00EE1E44 /* AppIcon.appiconset */,
 				50DE9B561B676A2800EE1E44 /* WebView.swift */,
 				50DE9B341B67697500EE1E44 /* AppDelegate.swift */,
@@ -474,6 +476,7 @@
 				50DE9B521B67697500EE1E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50DE9B531B67697500EE1E44 /* Build configuration list for PBXNativeTarget "rattlemediaTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +485,7 @@
 				50DE9B551B67697500EE1E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
