@@ -14,7 +14,7 @@ class WebView : UIWebView {
     
     
     override func awakeFromNib() {
-        println("hello");
+        print("hello");
         let url = NSURL(string: "https://www.rattlemedia.co.uk");
         self.loadHTMLString("", baseURL: url);
         self.loadRequest(NSURLRequest(URL: url!));
