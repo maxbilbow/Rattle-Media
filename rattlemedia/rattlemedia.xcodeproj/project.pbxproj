@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504429A01B911CC2005AFE40 /* IMG_1976.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5044299F1B911CC2005AFE40 /* IMG_1976.jpg */; };
+		504429AE1B911E19005AFE40 /* GameOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504429A61B911E19005AFE40 /* GameOfLife.swift */; };
+		504429AF1B911E19005AFE40 /* GameOfLifeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504429A71B911E19005AFE40 /* GameOfLifeNode.swift */; };
+		504429B11B911E19005AFE40 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504429A91B911E19005AFE40 /* GameScene.swift */; };
+		504429B31B911F22005AFE40 /* GOLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504429A21B911E19005AFE40 /* GOLController.swift */; };
+		504429C11B913299005AFE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504429C01B913299005AFE40 /* AppDelegate.swift */; };
+		504429C31B913299005AFE40 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504429C21B913299005AFE40 /* GameViewController.swift */; };
+		504429C51B913299005AFE40 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 504429C41B913299005AFE40 /* Shaders.metal */; };
+		504429C81B913299005AFE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504429C61B913299005AFE40 /* Main.storyboard */; };
+		504429CA1B913299005AFE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504429C91B913299005AFE40 /* Assets.xcassets */; };
+		504429CD1B913299005AFE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504429CB1B913299005AFE40 /* LaunchScreen.storyboard */; };
+		504429D61B91366C005AFE40 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 504429D51B91366C005AFE40 /* Property List.plist */; };
 		505DE2C21B910D6000165CC7 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DE2C11B910D6000165CC7 /* VideoPlayer.swift */; };
 		505DE2C41B9113B400165CC7 /* VideoTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DE2C31B9113B400165CC7 /* VideoTable.swift */; };
 		50849F9A1B90D8F0002A414D /* Rattle.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 6CAFAF0B1B67712F00C33AED /* Rattle.m4v */; };
@@ -43,13 +55,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5044299F1B911CC2005AFE40 /* IMG_1976.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1976.jpg; sourceTree = "<group>"; };
+		504429A21B911E19005AFE40 /* GOLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOLController.swift; sourceTree = "<group>"; };
+		504429A61B911E19005AFE40 /* GameOfLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfLife.swift; sourceTree = "<group>"; };
+		504429A71B911E19005AFE40 /* GameOfLifeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfLifeNode.swift; sourceTree = "<group>"; };
+		504429A91B911E19005AFE40 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		504429B81B9131E6005AFE40 /* plist.plist.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plist.plist.old; sourceTree = "<group>"; };
+		504429BE1B913299005AFE40 /* AiMubo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiMubo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504429C01B913299005AFE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		504429C21B913299005AFE40 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		504429C41B913299005AFE40 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		504429C71B913299005AFE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504429C91B913299005AFE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504429CC1B913299005AFE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504429CE1B913299005AFE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504429D51B91366C005AFE40 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		505DE2C11B910D6000165CC7 /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		505DE2C31B9113B400165CC7 /* VideoTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTable.swift; sourceTree = "<group>"; };
 		50849F9B1B90DFCB002A414D /* Rattle-Square.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rattle-Square.m4v"; path = "../../Rattle-Square.m4v"; sourceTree = "<group>"; };
 		50849F9E1B90EF63002A414D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		509796E61B90F4DE00388E76 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		50DE9B2F1B67697500EE1E44 /* rattlemedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rattlemedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50DE9B331B67697500EE1E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50DE9B341B67697500EE1E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50DE9B361B67697500EE1E44 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		50DE9B381B67697500EE1E44 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +99,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		504429BB1B913299005AFE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50DE9B2C1B67697500EE1E44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,11 +123,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504429A11B911E19005AFE40 /* SKGameOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				504429A21B911E19005AFE40 /* GOLController.swift */,
+				504429A61B911E19005AFE40 /* GameOfLife.swift */,
+				504429A71B911E19005AFE40 /* GameOfLifeNode.swift */,
+				504429A91B911E19005AFE40 /* GameScene.swift */,
+			);
+			path = SKGameOfLife;
+			sourceTree = "<group>";
+		};
+		504429BF1B913299005AFE40 /* AiMubo */ = {
+			isa = PBXGroup;
+			children = (
+				504429C01B913299005AFE40 /* AppDelegate.swift */,
+				504429C21B913299005AFE40 /* GameViewController.swift */,
+				504429C41B913299005AFE40 /* Shaders.metal */,
+				504429C61B913299005AFE40 /* Main.storyboard */,
+				504429C91B913299005AFE40 /* Assets.xcassets */,
+				504429CB1B913299005AFE40 /* LaunchScreen.storyboard */,
+				504429CE1B913299005AFE40 /* Info.plist */,
+			);
+			path = AiMubo;
+			sourceTree = "<group>";
+		};
 		50DE9B261B67697500EE1E44 = {
 			isa = PBXGroup;
 			children = (
+				504429D51B91366C005AFE40 /* Property List.plist */,
+				5044299F1B911CC2005AFE40 /* IMG_1976.jpg */,
 				50DE9B311B67697500EE1E44 /* rattlemedia */,
 				50DE9B491B67697500EE1E44 /* rattlemediaTests */,
+				504429BF1B913299005AFE40 /* AiMubo */,
 				50DE9B301B67697500EE1E44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +165,7 @@
 			children = (
 				50DE9B2F1B67697500EE1E44 /* rattlemedia.app */,
 				50DE9B461B67697500EE1E44 /* rattlemediaTests.xctest */,
+				504429BE1B913299005AFE40 /* AiMubo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +173,7 @@
 		50DE9B311B67697500EE1E44 /* rattlemedia */ = {
 			isa = PBXGroup;
 			children = (
+				504429A11B911E19005AFE40 /* SKGameOfLife */,
 				50849F9B1B90DFCB002A414D /* Rattle-Square.m4v */,
 				6CAFAF0B1B67712F00C33AED /* Rattle.m4v */,
 				50DE9B581B676B3B00EE1E44 /* AppIcon.appiconset */,
@@ -131,7 +194,7 @@
 		50DE9B321B67697500EE1E44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				50DE9B331B67697500EE1E44 /* Info.plist */,
+				504429B81B9131E6005AFE40 /* plist.plist.old */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,6 +237,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		504429BD1B913299005AFE40 /* AiMubo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504429CF1B913299005AFE40 /* Build configuration list for PBXNativeTarget "AiMubo" */;
+			buildPhases = (
+				504429BA1B913299005AFE40 /* Sources */,
+				504429BB1B913299005AFE40 /* Frameworks */,
+				504429BC1B913299005AFE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiMubo;
+			productName = AiMubo;
+			productReference = 504429BE1B913299005AFE40 /* AiMubo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		50DE9B2E1B67697500EE1E44 /* rattlemedia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50DE9B501B67697500EE1E44 /* Build configuration list for PBXNativeTarget "rattlemedia" */;
@@ -215,10 +295,16 @@
 		50DE9B271B67697500EE1E44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					poppy,
+				);
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Rattle Media Ltd";
 				TargetAttributes = {
+					504429BD1B913299005AFE40 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					50DE9B2E1B67697500EE1E44 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = 668T39KN4E;
@@ -244,11 +330,22 @@
 			targets = (
 				50DE9B2E1B67697500EE1E44 /* rattlemedia */,
 				50DE9B451B67697500EE1E44 /* rattlemediaTests */,
+				504429BD1B913299005AFE40 /* AiMubo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		504429BC1B913299005AFE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504429CD1B913299005AFE40 /* LaunchScreen.storyboard in Resources */,
+				504429CA1B913299005AFE40 /* Assets.xcassets in Resources */,
+				504429C81B913299005AFE40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50DE9B2D1B67697500EE1E44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +359,8 @@
 				50DE9B6B1B676B3C00EE1E44 /* Icon-76@2x.png in Resources */,
 				50DE9B671B676B3C00EE1E44 /* Icon-40@3x.png in Resources */,
 				50DE9B691B676B3C00EE1E44 /* Icon-60@3x.png in Resources */,
+				504429D61B91366C005AFE40 /* Property List.plist in Resources */,
+				504429A01B911CC2005AFE40 /* IMG_1976.jpg in Resources */,
 				50DE9B6C1B676B3C00EE1E44 /* Icon-Small.png in Resources */,
 				50DE9B6A1B676B3C00EE1E44 /* Icon-76.png in Resources */,
 				509796E71B90F4DE00388E76 /* Main.storyboard in Resources */,
@@ -282,12 +381,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		504429BA1B913299005AFE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504429C51B913299005AFE40 /* Shaders.metal in Sources */,
+				504429C31B913299005AFE40 /* GameViewController.swift in Sources */,
+				504429C11B913299005AFE40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50DE9B2B1B67697500EE1E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504429B31B911F22005AFE40 /* GOLController.swift in Sources */,
+				504429B11B911E19005AFE40 /* GameScene.swift in Sources */,
 				505DE2C41B9113B400165CC7 /* VideoTable.swift in Sources */,
 				50849F9D1B90ECFB002A414D /* FirstViewController.swift in Sources */,
+				504429AE1B911E19005AFE40 /* GameOfLife.swift in Sources */,
+				504429AF1B911E19005AFE40 /* GameOfLifeNode.swift in Sources */,
 				505DE2C21B910D6000165CC7 /* VideoPlayer.swift in Sources */,
 				50DE9B391B67697500EE1E44 /* SecondViewController.swift in Sources */,
 				50849F9F1B90EF63002A414D /* MainViewController.swift in Sources */,
@@ -314,6 +427,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		504429C61B913299005AFE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504429C71B913299005AFE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504429CB1B913299005AFE40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504429CC1B913299005AFE40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		50DE9B3F1B67697500EE1E44 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -325,6 +454,31 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		504429D01B913299005AFE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AiMubo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.AiMubo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		504429D11B913299005AFE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AiMubo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.AiMubo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		50DE9B4E1B67697500EE1E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,6 +500,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -414,9 +569,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = rattlemedia/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Property List.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.mobapp.rattle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -428,9 +584,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = rattlemedia/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Property List.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.mobapp.rattle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -450,6 +607,7 @@
 				);
 				INFOPLIST_FILE = rattlemediaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.mobapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rattlemedia.app/rattlemedia";
 			};
@@ -465,6 +623,7 @@
 				);
 				INFOPLIST_FILE = rattlemediaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.mobapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rattlemedia.app/rattlemedia";
 			};
@@ -473,6 +632,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		504429CF1B913299005AFE40 /* Build configuration list for PBXNativeTarget "AiMubo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504429D01B913299005AFE40 /* Debug */,
+				504429D11B913299005AFE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		50DE9B2A1B67697500EE1E44 /* Build configuration list for PBXProject "rattlemedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

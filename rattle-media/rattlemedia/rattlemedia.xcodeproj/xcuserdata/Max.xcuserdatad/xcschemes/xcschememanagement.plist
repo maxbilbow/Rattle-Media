@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AiMubo.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>rattlemedia.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>504429BD1B913299005AFE40</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>50DE9B2E1B67697500EE1E44</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>50DE9B451B67697500EE1E44</key>
+		<key>50B2A3751B91392E0041F112</key>
 		<dict>
 			<key>primary</key>
 			<true/>
